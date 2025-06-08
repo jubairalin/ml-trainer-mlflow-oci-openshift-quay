@@ -37,7 +37,7 @@ This project provides a full CI/CD pipeline for training, testing, logging, and 
 git clone https://github.com/jubairalin/ml-trainer-mlflow-oci-openshift-quay.git
 cd ml-trainer-mlflow-oci-openshift-quay
 
-2. Train Model
+2. Train Model 
 bash scripts/run_train.sh
 
 3. Serve Model
