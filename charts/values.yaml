@@ -1,0 +1,15 @@
+
+replicaCount: 1
+
+image:
+  repository: quay.io/appuser/modelserver
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8000
+
+route:
+  enabled: true
+  host: ""
