@@ -14,33 +14,8 @@ This project provides a full CI/CD pipeline for training, testing, logging, and 
 ---
 
 ## 📁 Project Structure
-├── scripts/
-│ ├── script.py # ML model training script with MLflow integration
-│ ├── serve.py # FastAPI-based model inference API
-│ ├── test_script.py # Unit tests for the model
-│ └── run_train.sh # Wrapper script for training
-├── charts/modelserver/ # Helm chart for serving model
-│ ├── Chart.yaml
-│ ├── values.yaml
-│ └── templates/
-│ ├── service.yaml
-│ └── route.yaml
-├── k8s/ # Kubernetes resources
-│ ├── pvc-dataset.yaml
-│ ├── pvc-output.yaml
-│ ├── secret-mlflow.yaml
-│ └── serve-route.yaml
-├── terraform/ # OCI OpenShift MLflow infra setup
-│ ├── main.tf
-│ ├── provider.tf
-│ ├── outputs.tf
-│ └── variables.tf
-├── .github/workflows/ # GitHub CI/CD
-│ ├── ci.yml
-│ └── deploy.yml
-├── dataset.csv # Sample dataset for training
-├── requirements.txt
-└── README.md
+![image](https://github.com/user-attachments/assets/5f43d434-5475-4705-9ecf-5999fc317fe9)
+
 
 
 ---
